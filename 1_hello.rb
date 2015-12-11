@@ -1,9 +1,11 @@
-first_name = "Generic"
-last_name = "Student"
-street_number = "123"
-street_address = "Rudimentary Dr"
-city = "Oakland"
+first_name = "Dave"
+last_name = "Sloan"
+street_number = "315"
+street_address = "Stanford Ave"
+city = "Menlo Park"
 state = "California"
-favorite_thing = "geraniums"
+favorite_thing = "bikes"
 
-p "Hello, my name is Generic Student and I live at 123 Rudimentary Dr, Oakland California. I lurv geraniums!"
+10.times do
+p "Hello, my name is #{first_name} and I live at #{street_number}, #{city} #{state}. I lurv #{favorite_thing}!"
+end
